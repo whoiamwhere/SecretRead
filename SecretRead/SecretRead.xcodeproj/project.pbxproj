@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F760EF921BF6E0900E2BC50 /* SecretBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F760EF821BF6E0900E2BC50 /* SecretBookModel.m */; };
 		3F8ED47E21BE0A4600BB2C4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8ED47D21BE0A4600BB2C4D /* AppDelegate.m */; };
 		3F8ED48021BE0A4800BB2C4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8ED47F21BE0A4800BB2C4D /* Assets.xcassets */; };
 		3F8ED48321BE0A4800BB2C4D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8ED48121BE0A4800BB2C4D /* MainMenu.xib */; };
 		3F8ED48621BE0A4800BB2C4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8ED48521BE0A4800BB2C4D /* main.m */; };
+		3F8ED49021BE11E300BB2C4D /* SecretReadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8ED48E21BE11E300BB2C4D /* SecretReadController.m */; };
+		3F8ED49121BE11E300BB2C4D /* SecretReadController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8ED48F21BE11E300BB2C4D /* SecretReadController.xib */; };
+		3F8ED49A21BE5F8C00BB2C4D /* DCFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8ED49821BE5F8B00BB2C4D /* DCFileTool.m */; };
+		D1510CD5E6C7894BDC60C250 /* libPods-SecretRead.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 761A2C746B1611741E3C0AB0 /* libPods-SecretRead.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F760EF721BF6E0900E2BC50 /* SecretBookModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecretBookModel.h; sourceTree = "<group>"; };
+		3F760EF821BF6E0900E2BC50 /* SecretBookModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecretBookModel.m; sourceTree = "<group>"; };
 		3F8ED47921BE0A4600BB2C4D /* SecretRead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretRead.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8ED47C21BE0A4600BB2C4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F8ED47D21BE0A4600BB2C4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -22,6 +29,15 @@
 		3F8ED48421BE0A4800BB2C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F8ED48521BE0A4800BB2C4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3F8ED48721BE0A4800BB2C4D /* SecretRead.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SecretRead.entitlements; sourceTree = "<group>"; };
+		3F8ED48D21BE11E300BB2C4D /* SecretReadController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecretReadController.h; sourceTree = "<group>"; };
+		3F8ED48E21BE11E300BB2C4D /* SecretReadController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecretReadController.m; sourceTree = "<group>"; };
+		3F8ED48F21BE11E300BB2C4D /* SecretReadController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecretReadController.xib; sourceTree = "<group>"; };
+		3F8ED49521BE3E2800BB2C4D /* SecretRead-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecretRead-Prefix.pch"; sourceTree = "<group>"; };
+		3F8ED49821BE5F8B00BB2C4D /* DCFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCFileTool.m; sourceTree = "<group>"; };
+		3F8ED49921BE5F8C00BB2C4D /* DCFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCFileTool.h; sourceTree = "<group>"; };
+		50FD311C4EDF8BAD2406BC26 /* Pods-SecretRead.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretRead.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SecretRead/Pods-SecretRead.debug.xcconfig"; sourceTree = "<group>"; };
+		761A2C746B1611741E3C0AB0 /* libPods-SecretRead.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SecretRead.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9912DB9ACACA3A6D40BC193C /* Pods-SecretRead.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretRead.release.xcconfig"; path = "Pods/Target Support Files/Pods-SecretRead/Pods-SecretRead.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1510CD5E6C7894BDC60C250 /* libPods-SecretRead.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,8 @@
 			children = (
 				3F8ED47B21BE0A4600BB2C4D /* SecretRead */,
 				3F8ED47A21BE0A4600BB2C4D /* Products */,
+				83F93E36CD934A2A99FC8A50 /* Pods */,
+				481BE66D7D868FF4DC96BE16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,15 +73,40 @@
 		3F8ED47B21BE0A4600BB2C4D /* SecretRead */ = {
 			isa = PBXGroup;
 			children = (
+				3F8ED49921BE5F8C00BB2C4D /* DCFileTool.h */,
+				3F8ED49821BE5F8B00BB2C4D /* DCFileTool.m */,
 				3F8ED47C21BE0A4600BB2C4D /* AppDelegate.h */,
 				3F8ED47D21BE0A4600BB2C4D /* AppDelegate.m */,
+				3F8ED48D21BE11E300BB2C4D /* SecretReadController.h */,
+				3F8ED48E21BE11E300BB2C4D /* SecretReadController.m */,
+				3F8ED48F21BE11E300BB2C4D /* SecretReadController.xib */,
+				3F760EF721BF6E0900E2BC50 /* SecretBookModel.h */,
+				3F760EF821BF6E0900E2BC50 /* SecretBookModel.m */,
 				3F8ED47F21BE0A4800BB2C4D /* Assets.xcassets */,
 				3F8ED48121BE0A4800BB2C4D /* MainMenu.xib */,
 				3F8ED48421BE0A4800BB2C4D /* Info.plist */,
 				3F8ED48521BE0A4800BB2C4D /* main.m */,
 				3F8ED48721BE0A4800BB2C4D /* SecretRead.entitlements */,
+				3F8ED49521BE3E2800BB2C4D /* SecretRead-Prefix.pch */,
 			);
 			path = SecretRead;
+			sourceTree = "<group>";
+		};
+		481BE66D7D868FF4DC96BE16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				761A2C746B1611741E3C0AB0 /* libPods-SecretRead.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83F93E36CD934A2A99FC8A50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50FD311C4EDF8BAD2406BC26 /* Pods-SecretRead.debug.xcconfig */,
+				9912DB9ACACA3A6D40BC193C /* Pods-SecretRead.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,6 +116,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F8ED48A21BE0A4800BB2C4D /* Build configuration list for PBXNativeTarget "SecretRead" */;
 			buildPhases = (
+				0EB32BD45FA2FAE60F06FBBC /* [CP] Check Pods Manifest.lock */,
 				3F8ED47521BE0A4600BB2C4D /* Sources */,
 				3F8ED47621BE0A4600BB2C4D /* Frameworks */,
 				3F8ED47721BE0A4600BB2C4D /* Resources */,
@@ -124,17 +169,42 @@
 			files = (
 				3F8ED48021BE0A4800BB2C4D /* Assets.xcassets in Resources */,
 				3F8ED48321BE0A4800BB2C4D /* MainMenu.xib in Resources */,
+				3F8ED49121BE11E300BB2C4D /* SecretReadController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EB32BD45FA2FAE60F06FBBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SecretRead-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3F8ED47521BE0A4600BB2C4D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F8ED49021BE11E300BB2C4D /* SecretReadController.m in Sources */,
 				3F8ED48621BE0A4800BB2C4D /* main.m in Sources */,
+				3F760EF921BF6E0900E2BC50 /* SecretBookModel.m in Sources */,
+				3F8ED49A21BE5F8C00BB2C4D /* DCFileTool.m in Sources */,
 				3F8ED47E21BE0A4600BB2C4D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,11 +334,14 @@
 		};
 		3F8ED48B21BE0A4800BB2C4D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50FD311C4EDF8BAD2406BC26 /* Pods-SecretRead.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SecretRead/SecretRead.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/SecretRead/SecretRead-Prefix.pch";
 				INFOPLIST_FILE = SecretRead/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -281,11 +354,14 @@
 		};
 		3F8ED48C21BE0A4800BB2C4D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9912DB9ACACA3A6D40BC193C /* Pods-SecretRead.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SecretRead/SecretRead.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/SecretRead/SecretRead-Prefix.pch";
 				INFOPLIST_FILE = SecretRead/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
