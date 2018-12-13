@@ -16,6 +16,7 @@
 @property(nonatomic,strong) NSMutableArray * chapterContentArr;
 @property(nonatomic,strong) NSString * bookPath;
 @property(nonatomic,strong) NSFileManager * fileManage;
+@property(nonatomic,assign) NSInteger index;
 @end
 
 @implementation SecretReadController
@@ -23,9 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do view setup here.
-    [NSApplication sharedApplication].keyWindow.title = @"asdasd";
-    
-    
+    [NSApplication sharedApplication].keyWindow.title =@"债市的熬时间段里卡接收到啊可接受的拉开金黄色的拉科技收到货了解 ";
     [self createBookPath];
     [self reloadBookList];
     
@@ -202,6 +201,20 @@
     }
 
 
+    
+}
+
+- (IBAction)previousBtnClick:(id)sender {
+//    float width =  self.view.bounds.size.width;
+    NSInteger num4line =  
+    [NSApplication sharedApplication].keyWindow.frame.size.width/17;
+    [NSApplication sharedApplication].keyWindow.title = [self.previewTextView.string substringWithRange:NSMakeRange(0, num4line)];
+    
+    
+    
+}
+
+- (IBAction)nextBtnClick:(id)sender {
     
 }
 

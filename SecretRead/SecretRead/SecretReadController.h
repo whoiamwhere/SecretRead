@@ -15,4 +15,10 @@
 - (IBAction)chooseFileBtnClick:(id)sender;
 
 @property (nonatomic,strong)IBOutlet NSTextView *previewTextView;
+
+@property (nonatomic,strong)IBOutlet NSButton *previousBtn;
+- (IBAction)previousBtnClick:(id)sender;
+
+@property (nonatomic,strong)IBOutlet NSButton *nextBtn;
+- (IBAction)nextBtnClick:(id)sender;
 @end
